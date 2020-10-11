@@ -104,3 +104,6 @@ python train.py -s veri -t veri --height 128 --width 256 --test_batch_size 100 -
 python train.py -s vehicleID -t vehicleID --height 128 --width 256 --test_batch_size 100 --evaluate -a resnet50_fc2432_bam --load_weights {the place where you already saved model's weights} --save_dir log/Veri_eval-vehicleID-to-vehicleID --gpu_devices 0  
 ```
 
+
+#### useful tips
+If you want to train or test on VehicleID dataset, you need to change the ` eval_metrics.py ` in line 130 in order to match different dataset settings.
