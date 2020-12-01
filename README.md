@@ -1,4 +1,4 @@
-# Vehicle-Re-ID
+# Vehicle-Re-ID -- Comprehensive Detail Refinement Network for Vehicle Re-identification
 Vehicle Re-ID on benchmark datasets
 
 
